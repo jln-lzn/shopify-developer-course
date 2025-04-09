@@ -1,7 +1,8 @@
 :root {
-  --primaryColor: {{ settings.primary_color }};
+  --primary-color: '{{ settings.primary_color }}';
+  --secondary-color: '{{secondary_color}}';
 }
 
-h1 {
-  color: var(--primaryColor);
+body {
+  background-color: var(--primary-color);
 }
