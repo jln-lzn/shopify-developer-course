@@ -12,6 +12,16 @@
     "settings": [
       {
         "type": "header",
+        "info": "Brand logos",
+        "content": "Set the logos for your brand"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo",
+      },
+      {
+        "type": "header",
         "info": "Brand Colors",
         "content": "Set the colors for your brand",
       },
