@@ -18,14 +18,16 @@
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
+
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
     {% render 'meta-tags' %}
+
+    <link rel="stylesheet" href="{{ 'global.css' | asset_url }}" media="all" />
     
     {{ content_for_header }}
-    {{ settings.font.family }}
   </head>
 
   <body>
