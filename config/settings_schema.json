@@ -12,8 +12,8 @@
     "settings": [
       {
         "type": "header",
-        "info": "Brand logos",
-        "content": "Set the logos for your brand"
+        "content": "Brand logos",
+        "info": "Set the logos for your brand"
       },
       {
         "type": "image_picker",
@@ -27,8 +27,8 @@
       },
       {
         "type": "header",
-        "info": "Brand Colors",
-        "content": "Set the colors for your brand",
+        "content": "Brand Colors",
+        "info": "Set the colors for your brand",
       },
       {
         "type": "color",
@@ -59,6 +59,12 @@
         "id": "background_color",
         "label": "Background Color",
         "default": "#F8F8F8",
+      },
+      {
+        "type": "font_picker",
+        "id": "font",
+        "label": "Font",
+        "default": "assistant_n4",
       }
     ]
   }
