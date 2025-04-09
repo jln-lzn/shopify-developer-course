@@ -24,6 +24,7 @@
     {% endif %}
 
     {% render 'meta-tags' %}
+    {% render 'fonts' %}
 
     <link rel="stylesheet" href="{{ 'global.css' | asset_url }}" media="all" />
     
@@ -36,6 +37,9 @@
       <h1>
         hello
       </h1>
+      <h2>
+        {{ page_title }}
+      </h2>
     </main>
   </body>
 </html>
