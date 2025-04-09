@@ -8,7 +8,10 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {},
+  "current": {
+    "favicon": "shopify://shop_images/favicon.png",
+    "content_for_index": []
+  },
   "presets": {
     "Default": {}
   }
