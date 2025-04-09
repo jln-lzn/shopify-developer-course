@@ -20,6 +20,18 @@
         "id": "primary_color",
         "label": "Primary Color",
         "default": "#FFC81F",
+      },
+      {
+        "type": "color",
+        "id": "secondary_color",
+        "label": "Secondary Color",
+        "default": "#212120",
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#2C3131",
       }
     ]
   }
