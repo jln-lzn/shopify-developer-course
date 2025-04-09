@@ -21,6 +21,11 @@
         "label": "Logo",
       },
       {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon",
+      },
+      {
         "type": "header",
         "info": "Brand Colors",
         "content": "Set the colors for your brand",
